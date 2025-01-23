@@ -7,6 +7,7 @@ export default function About() {
   });
 
   const theme = () => {
+    // eslint-disable-next-line
     if (myStyle.color == "white") {
       setMyStyle({
         color: "black",
